@@ -1,0 +1,434 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <script src="https://kit.fontawesome.com/a0e16d90ab.js"></script>
+    <style>
+    *{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   text-decoration: none;
+   
+}
+.header{
+    justify-content: center;
+    background-image:linear-gradient(purple,rgb(120, 68, 183));
+    text-align: center;
+    color: white;
+    
+}
+.row-one{
+    padding: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+.link{
+    
+    
+        padding: 3;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding-left: 50%;
+        
+}
+a{
+    color: white;
+}
+.left-logo{
+ padding-right: 15%;
+    
+    
+}
+.right-link{
+    padding: 20px;
+    
+}
+.right-link:hover{
+    padding: 20px;
+    color: rgb(0, 0, 0); 
+    font-size: 1.1rem;
+    
+    
+}
+.main-blog{
+    padding: 2cm;
+   
+}
+
+h3{
+    color: white;
+    letter-spacing: 20px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+}
+b{
+    font-size: 30px;
+}
+.design{
+    padding-left: 5%;
+    color: black;
+    text-align: center;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+
+}
+
+
+.box1{
+   display: inline-block;
+    border: 0px solid black;
+    border-radius: 50px 50px 50px ;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(43, 41, 41, 0.267) 1rem 1rem;
+    color: aqua;
+    background-image: linear-gradient(purple, pink);
+    
+}
+.box1:hover{
+    display: inline-block;
+     border: 0px solid black;
+     border-radius: 50px 50px 50px ;
+     padding: 23px;
+     box-sizing: border-box;
+     box-shadow: rgba(43, 41, 41, 0.267) 1rem 1rem;
+     color: rgba(255, 85, 0, 0.477);
+     background-image: linear-gradient(pink,purple);
+     
+ }
+
+#Design-1{
+ 
+    display: flex;   
+    flex-direction: row;
+    padding: 4cm;
+    
+
+}
+.a2{
+    padding-left:20% ;
+    padding-top:1cm;
+    padding-bottom:1cm;
+}
+button{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50px 50px 50px ;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50px 50px 50px ;
+    padding: 10px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: aqua;
+    background-image: linear-gradient(purple, pink);
+
+}
+button:hover{
+    display: inline-block;
+    border: 1px solid rgb(8, 176, 188);
+    border-radius: 50px 50px 50px ;
+    display: inline-block;
+   
+    border-radius: 50px 50px 50px ;
+    padding: 15px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: rgb(178, 180, 236);
+    background-image: linear-gradient(rgb(217, 142, 142), rgb(78, 34, 189));
+
+}
+#Ideas{
+ 
+    display: flex;   
+    flex-direction: row;
+   background-image: linear-gradient(rgb(229, 66, 66), purple);
+    padding: 4cm;
+
+}
+.box2{
+    padding-left: 60%;
+    display: inline-block;
+     border: 1px solid rgb(121, 114, 114);
+     border-radius: 50px 50px 50px ;
+     padding: 20px;
+     box-sizing: border-box;
+     box-shadow: rgba(43, 41, 41, 0.267) 1rem 1rem;
+    
+     color: aqua;
+     background-image: linear-gradient(purple, pink);
+     
+ }
+ .box2:hover{
+    padding-left: 60%;
+    display: inline-block;
+     border: 1px solid rgb(240, 10, 10);
+     border-radius: 50px 50px 50px ;
+     padding: 25px;
+     box-sizing: border-box;
+     box-shadow: rgba(43, 41, 41, 0.267) 1rem 1rem;
+    
+     color: rgb(31, 155, 54);
+     background-image: linear-gradient(rgb(255, 106, 255), rgb(255, 8, 49));
+     
+ }
+
+
+
+ .ideas{
+    padding-left: 50%;
+    color: black;
+    text-align: center;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-right: 5%;
+
+}
+.a{
+   
+    
+    padding-top:1cm;
+    padding-bottom:1cm;
+  
+   padding-left: 150%;
+   
+   
+}
+
+#Creativity{
+ 
+    display: flex;   
+    flex-direction: row;
+    padding: 4cm;
+    
+    
+
+}
+.box3{
+    padding-left: 60%;
+    display: inline-block;
+     border: 1px solid rgb(121, 114, 114);
+     border-radius: 50px 50px 50px ;
+     padding: 20px;
+     box-sizing: border-box;
+     box-shadow: rgba(43, 41, 41, 0.267) 1rem 1rem;
+    
+     color: aqua;
+     background-image: linear-gradient(purple, pink);
+     
+ }
+ .box3:hover{
+    padding-left: 60%;
+    display: inline-block;
+     border: 1px solid rgb(240, 10, 10);
+     border-radius: 50px 50px 50px ;
+     padding: 25px;
+     box-sizing: border-box;
+     box-shadow: rgba(43, 41, 41, 0.267) 1rem 1rem;
+    
+     color: rgb(31, 155, 54);
+     background-image: linear-gradient(rgb(255, 106, 255), rgb(255, 8, 49));
+     
+ }
+
+ .creative{
+    padding-right: 50%;
+    color: black;
+    text-align: center;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-left: 5%;
+
+}
+
+.creative:hover{
+    padding-right: 50%;
+    color: rgb(216, 15, 15);
+    text-align: center;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-left: 5%;
+
+}
+i{
+    color: black;
+}
+.footer{
+    padding: 50px;
+    text-align: center;
+}
+i{
+    padding: 50px;
+    border: 0ch;
+
+}
+i:hover{
+    cursor: pointer;
+    padding: 50px;
+    font-size: 3rem;
+    border: 1px;
+
+}
+
+
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="header">
+            <!-- Header -->
+            <div class="row-one">
+                <div class="left-logo">
+                    CREATIVE <b>D</b>
+                </div>
+                <div class="link">
+                    <div class="right-link">
+                        <a href="#link1"> AGENCY</a>
+                    </div>
+                    <div class="right-link">
+                        <a href="#link2">WORK</a>
+                    </div>
+                    <div class="right-link">
+                        <a href="#link3">BLOG</a>
+                    </div>
+                    <div class="right-link">
+                        <a href="#link4">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Main-Log -->
+            <div class="main-blog">
+                <h3>CREATIVE</h3>
+                <H1>DESIGN</H1>
+            </div>
+        </div>
+
+        <!-- Design_blog -->
+      
+        <div id="Design-1">
+            <div>
+                <img class="a2"
+                    src="https://th.bing.com/th?id=OIP.ANfCiU-_Sw1_86CgxI6pyAHaJx&w=217&h=287&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                    alt="">
+            </div>
+            
+            <div  class="design">
+
+
+                <div class="box1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> <br> Quidem, magni
+                    adipisci.
+                    Perferendis debitis
+                    <br>
+                    possimus dolores ut, dolorum maiores blanditiis omnis <br> <br> molestias nostrum dolore accusantium
+                    esse nam placeat <br>
+                    fugit totam itaque ullam rerum hic natus rem earum. <br> <br> Odit labore corrupti minus, ullam ab
+                    voluptatum <br> sequi
+                    fuga soluta dolor? Cum, soluta magni. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br><br> Explicabo cumque enim vel reiciendis eius iure aliquid saepe <br><br> consequatur ad
+                    excepturi.
+                    <br>
+                    <br><br>
+                    <button>Learn More</button>
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+        </div>
+   
+   
+        <div id="Ideas">
+            <div>
+                <img class="a" src="" alt="">
+            </div>
+            <div class="ideas">
+
+                <div>
+                    <h1>IDEAS</h1>
+                </div>
+                <div class="box2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> <br> Quidem, magni
+                    adipisci.
+                    Perferendis debitis
+                    <br>
+                    possimus dolores ut, dolorum maiores blanditiis omnis <br> <br> molestias nostrum dolore accusantium
+                    esse nam placeat <br>
+                    fugit totam itaque ullam rerum hic natus rem earum. <br> <br> Odit labore corrupti minus, ullam ab
+                    voluptatum <br> sequi
+                    fuga soluta dolor? Cum, soluta magni. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br><br> Explicabo cumque enim vel reiciendis eius iure aliquid saepe <br><br> consequatur ad
+                    excepturi.
+                    <br>
+                    <br><br>
+                    <button>Learn More</button>
+
+                </div>
+
+
+
+            </div>
+        </div>
+   
+
+        <div id="Creativity">
+
+            <div class="creative">
+
+                <div>
+                    <h1>IDEAS</h1>
+                </div>
+                <div class="box3 ">
+                    <div><b>C</b>REATIVITY</div> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> <br>
+                    Quidem, magni adipisci.
+                    Perferendis debitis
+                    <br>
+                    possimus dolores ut, dolorum maiores blanditiis omnis <br> <br> molestias nostrum dolore accusantium
+                    esse nam placeat <br>
+                    fugit totam itaque ullam rerum hic natus rem earum. <br> <br> Odit labore corrupti minus, ullam ab
+                    voluptatum <br> sequi
+                    fuga soluta dolor? Cum, soluta magni. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br><br> Explicabo cumque enim vel reiciendis eius iure aliquid saepe <br><br> consequatur ad
+                    excepturi.
+                    <br>
+                    <br><br>
+                    <button>Learn More</button>
+
+                </div>
+
+                <div>
+                    <img class="a" src="" alt="">
+                </div>
+
+            </div>
+        </div>
+  
+        <div class="footer">
+            <i class="fa-brands fa-github fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-youtube fa-2x"></i>
+            <i class="fa-brands fa-facebook fa-2x"></i>
+        </div>
+ 
+    </form>
+
+</body>
+
+</html>
